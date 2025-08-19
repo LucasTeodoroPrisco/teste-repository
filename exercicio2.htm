@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Flexbox</title> 
+        <style>
+            #conteiner {
+                display: flex;
+                flex-wrap: wrap;
+                grid-template-columns: 100px auto;
+                column-gap: 100px;
+                row-gap: 100px;
+            }
+
+            #conteiner > div {
+                background-color: orange;
+                width: 100px;
+                font-size: 20px;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="conteiner">
+            <div>1. Flex </div>
+            <div>2. Flex </div>
+            <div>3. Flex </div>
+            <div>4. Flex </div>
+            <div>5. Flex </div>
+            <div>6. Flex </div>
+            <div>7. Flex </div>
+            <div>8. Flex </div>
+        </div>
+        
+    </body>
+</html>
